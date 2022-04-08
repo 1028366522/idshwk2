@@ -1,1 +1,1 @@
-alert tcp any any ->any 3399(msg:"bot founded";flow:established;content:"login","Initial";sid:1000001;ccc)
+alert tcp any any ->any 3399(msg:"bot founded";flow:established;content:"login","Initial";sid:1000001;)
